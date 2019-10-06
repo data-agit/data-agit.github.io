@@ -50,7 +50,7 @@ google_analytics:    UA-149478721-1
 disqus_shortname:    Datagit
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. by Datagit'
+copyright:           '&copy; 2019. by Datagit'
 
 # Format of the permalinks
 permalink:           pretty
