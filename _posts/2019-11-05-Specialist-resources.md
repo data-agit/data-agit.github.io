@@ -9,9 +9,7 @@ comments: true
 
 
 - Tableau Desktop Specialist 시험 자료 정리입니다. 
-
 <br />
-
 [Preparing for the Tableau Desktop Specialist Certification Exam](https://lisaadell.com/home/2019/2/6/preparing-for-tableau-desktop-specialist-certification)의 내용을 참고하였습니다.
 
 <br />
