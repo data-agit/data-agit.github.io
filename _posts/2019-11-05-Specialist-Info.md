@@ -14,7 +14,7 @@ comments: true
 <br />
 
 ---
-###시험 기본 정보
+### 시험 기본 정보
 - 시간 제한 : 60분
 - 문제 형식 : Multiple choice, Multiple response, hands-on
 - 문제 수 : 30개
@@ -29,7 +29,7 @@ comments: true
 <br />
 <br />
 
-###시험 준비물
+### 시험 준비물
 - 집에서 시험
 - 신분증(운전면허증, 여권 등등)
     - 시험 등록할때의 이름과 같아야 함
@@ -41,7 +41,7 @@ comments: true
 <br />
 <br />
 
-###시험 주의 사항
+### 시험 주의 사항
 - 시험 중 온라인 사용 가능
     - 구글 번역 가능
     - 구글 검색 가능
@@ -53,7 +53,7 @@ comments: true
 <br />
 
 ---
-###시험 내용
+### 시험 내용
 
 - Connecting & Preparing Data
     - Create and Save data connections
