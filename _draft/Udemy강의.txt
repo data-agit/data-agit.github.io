@@ -1,0 +1,160 @@
+- 태블로 시험 준비
+    - Knowledge Based 시험문제가 Hands-on 보다 많음
+    - Quealified Associate 시험은 Hands-on 문제가 많으며, 더 어려움
+    - 그러나, Knowledge Based 문제는 난이도가 비슷
+    - 시험 시간은 60분으로 되어있지만, 신분확인 절차, VM 준비 등과 같은 시간이 필요해 2시간 정도 소요
+    - 감독자가 노트, 휴대폰, 다른 장비가 주변에 없는지 확인
+    - Escape Key 누르지 않게 주의(ESC)
+
+- 실제 시험 준비
+    - *영상에서 스샷찍기
+    - 
+ 
+- 시험에 불합격 하면
+    - 두번째 시험은 바로 응시 가능
+    - 세번째는 2달 뒤에 볼수 있음
+    - 시험은 각각 비용을 지불해야 함
+
+- Virtual Machine
+    - Tableau Desktop이 설치되어 있음
+    - Hands-on 에 필요한 데이터 셋이 있는 폴더에 로그인
+
+Tableau Online 도움말과 같은 가상 시험 환경에서 온라인 공개 리소스를 활용할 수 있습니다. 로컬 컴퓨터 나 대화식 통신이 가능한 사이트에 액세스 할 수 없습니다. 로그인이 필요하고 책상에 메모를하거나 자료를 가지고있는 개인 웹 사이트에 액세스 할 수 없습니다
+
+
+- Connecting to & Preparing Data
+    - Create and save data connection
+        - Live Connection
+            - 실시간
+            - Tableau Refresh를 하면 최신 데이터 동기화
+            - Connection 끊기면 사용 불가
+            - DB의 경우 Credential을 입력해야함
+        - Extract
+            - 다운로드(Frozen the Data)
+            - Refresh Extract를 하지 않으면, 원천이 변경 되었더라도 같은 데이터를 계속 사용
+            - Connection 끊겨도(오프라인) 사용 가능
+            - Credential 입력 필요 없음
+            - Tableau Public에서는 사용 불가
+            - 큰 데이터의 경우 Aggregate 같은 옵션 사용 가능
+
+        - TDS(Tableau Data Source)
+            - Meta Data 저장
+        - https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm
+    - Join
+        - Inner
+            - Join되는 데이터만 가져옴
+        - Left
+            - Left 테이블의 모든 데이터를 가져옴
+            - Mapping 안되는 데이터는 null
+        - Right
+            - Right 테이블의 모든 데이터를 가져옴
+        - Full Outer
+            - 모든 테이블을 가져옴
+            - Mapping 안되는 데이터는 null
+        - https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm
+    - Blend
+        - Left Join과 비슷
+        - 서로다른 데이터원천간의 데이터 조인하는 방법
+        - Primary data source, Secondary data source로 구분됨
+        - Join과 다르게 각각의 data source를 유지
+        - Left Join은 Join 후 Aggregation
+        - Blend는 Aggregation 후 Join
+        - 시트에서  blending
+        - https://help.tableau.com/current/pro/desktop/en-us/multiple_connections.htm
+
+    - Union
+        - Join, Blend는 add Columns
+        - Union 은 add Rows
+
+    - Managing data properties
+        - Rename a data field
+            - Data source, Sheet 어디서 바꾸던 적용이 됨
+        - Assign an alias to a data value
+            - 값을 alias
+        - Assign a geographic role to a data field
+            - geographic role이 부여된 field만 map을 생성 가능
+        - Change data type for a data field
+        - Change default properties for a data field
+
+- Exploring & Analyzing Data
+    - Basic Chart
+        - Bar Chart
+        - Line Chart
+            - Dicrete Line Chart는 Header가 생김
+        - Scatter Plot
+            - 2개 이상의 측정값(Measures)의 관계를 표현
+            - Analyze > Aggregation 해제
+        - Combinded axis
+        - Dual axis 
+        - Crosstab 
+            - Text table
+        - Highlight 
+            - 색깔 들어간 Crosstab
+        - Greographic 
+            - Ambiguous는 일반적으로 같은 이름의 지역이 있을 경우 발생
+            - 만약, City가 Ambiguous하면 State와 같이 정보를 더 넣어 줘서 해결가능
+    - Organize data and apply filters
+        - Visual group
+        - Set
+        - Hierachy
+        - Filter
+        - Context filter
+            - Context Filter를 적용하면, 적용된 Filter를 먼저 한 후 다른 필터 적용됨
+            - Data Source Filter > Context Filter > Dimension Filter
+        - Date filter
+    - Apply Analytics to a worksheet
+        - Sort
+        - Reference Line 
+        - Trend Line
+            - P-value 값이 작을 수록, 상관관계가 높음
+
+        - Table Calculation
+        - Bins & Histogram
+        - Create Calculated field
+            - split string
+            - date Calculation
+            - simple arithmetic
+        - Add a Parameter
+
+
+- Sharing Insights
+    - Format view for presentaion
+        - Color
+        - Bolding
+        - Font
+        - Shape
+        - Change Size mark
+    - Create and modify a dashboard
+        - Create dashboard
+        - Interactive or Explanatory 
+        - Dashboard Action
+        - Modify Dashboard for mobile 
+        - Create a story
+        - Share PDF
+        - Share Image
+
+
+- Understanding Tableau Concepts
+    - Dimensions and Measures
+        - Dimension은 Header를 가짐Index)
+        - 따라서 granularity를 가질 수 있음
+        - Measure은 view에 추가되면, aggreagte됨
+    - Discrete and Continuous
+        - Blue : Discrete
+        - Green : Continuous
+        - Discrete 는 Rows(Header)로
+        - Continuous 는 column(axis)로
+        - Discrete Dimension 이 일반적
+        - Continuous Measure이 일반적
+        - YEAR
+            - discrete의 경우 Header가 보임
+    - Aggregation
+        - 
+
+
+
+
+
+
+
+    
