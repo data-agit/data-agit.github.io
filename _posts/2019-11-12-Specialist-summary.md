@@ -114,7 +114,7 @@ comments: true
     - Context filter
         - Context Filter를 적용하면, Context Filter를 먼저 한 후 다른 필터 적용
         - 필터 적용 순서 : Data Source Filter -> Context Filter -> Dimension Filter
-        - <img src="/assets/img/compare_connection.png">
+        - <img src="/assets/img/filter_order_of_operation.png">
         - [With sets](https://kb.tableau.com/articles/issue/top-n-unexpected-results)
         - [For performance](https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering_context.htm)
     - [Date filter](https://onlinehelp.tableau.com/current/pro/desktop/en-us/qs_relative_dates.htm)
