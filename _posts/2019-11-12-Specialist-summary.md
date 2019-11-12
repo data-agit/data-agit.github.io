@@ -5,13 +5,6 @@ subtitle: "Tableau Specialist 시험 요약집"
 categories: tableau
 tags: specialist
 comments: true
----
-
-
-- Tableau Desktop Specialist 시험 요약집
-
-<br />
-<br />
 
 ---
 ### Connecting to & Preparing Data
