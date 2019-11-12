@@ -23,7 +23,7 @@ comments: true
 - Create a live connection to a data source
     - 처음 연결하면 Default는 Live Connection
 - Explain the differences between using live connections versus extracts
-    - <img src="https://drive.google.com/file/d/1Y0sbeqOndrStD__UoGFw-mBuD_b5h2Fu/view?usp=sharing?raw=1">
+    - <img src="/posts/_resources/compare_connection.png">
     - Live Connection
     - Extract
         - Tableau Public에서는 사용 불가
