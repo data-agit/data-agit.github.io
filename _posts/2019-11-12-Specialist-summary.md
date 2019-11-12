@@ -5,6 +5,13 @@ subtitle: "Tableau Specialist 시험 요약집"
 categories: tableau
 tags: specialist
 comments: true
+---
+### Connecting to & Preparing Data
+### Exploring & Analyzing Data
+### Sharing Insights
+### Understanding Tableau Concepts
+<br />
+<br />
 
 ---
 ### Connecting to & Preparing Data
@@ -90,7 +97,7 @@ comments: true
     - [Basic Charts](https://onlinehelp.tableau.com/current/pro/desktop/en-us/dataview_examples.htm)
     - [Bar chart](https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm)
     - [Line chart](https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm)
-        - - Dicrete Line Chart는 Header가 생김
+        - Dicrete Line Chart는 Header가 생김
     - [Scatter plot](https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm)
         - 2개 이상의 측정값(Measures)의 관계를 표현
         - Analyze -> Aggregation 해제
