@@ -20,7 +20,9 @@
     - Hands-on 에 필요한 데이터 셋이 있는 폴더에 로그인
 
 Tableau Online 도움말과 같은 가상 시험 환경에서 온라인 공개 리소스를 활용할 수 있습니다. 로컬 컴퓨터 나 대화식 통신이 가능한 사이트에 액세스 할 수 없습니다. 로그인이 필요하고 책상에 메모를하거나 자료를 가지고있는 개인 웹 사이트에 액세스 할 수 없습니다
-
+    - [](https://mkt.tableau.com/files/DesktopSpecialist_ExamGuide.pdf)
+    - []()
+    
 
 - Connecting to & Preparing Data
     - Create and save data connection
@@ -149,7 +151,6 @@ Tableau Online 도움말과 같은 가상 시험 환경에서 온라인 공개 �
         - YEAR
             - discrete의 경우 Header가 보임
     - Aggregation
-        - 
 
 
 
