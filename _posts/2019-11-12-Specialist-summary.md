@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Tableau Specialist 시험 요약집"
-subtitle: "Tableau Specialist 시험 요약집"
+title: "Tableau Specialist 시험 요약"
+subtitle: "Tableau Specialist 시험 요약"
 categories: tableau
 tags: specialist
 comments: true
 ---
-### Connecting to & Preparing Data
-### Exploring & Analyzing Data
-### Sharing Insights
-### Understanding Tableau Concepts
+### 1. Connecting to & Preparing Data
+### 2. Exploring & Analyzing Data
+### 3. Sharing Insights
+### 4. Understanding Tableau Concepts
 <br />
 <br />
 
@@ -23,7 +23,7 @@ comments: true
 - Create a live connection to a data source
     - 처음 연결하면 Default는 Live Connection
 - Explain the differences between using live connections versus extracts
-    - <img src="/posts/_resources/compare_connection.png">
+    - <img src="/assets/img/compare_connection.png">
     - Live Connection
     - Extract
         - Tableau Public에서는 사용 불가
@@ -114,6 +114,7 @@ comments: true
     - Context filter
         - Context Filter를 적용하면, Context Filter를 먼저 한 후 다른 필터 적용
         - 필터 적용 순서 : Data Source Filter -> Context Filter -> Dimension Filter
+        - <img src="/assets/img/compare_connection.png">
         - [With sets](https://kb.tableau.com/articles/issue/top-n-unexpected-results)
         - [For performance](https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering_context.htm)
     - [Date filter](https://onlinehelp.tableau.com/current/pro/desktop/en-us/qs_relative_dates.htm)
