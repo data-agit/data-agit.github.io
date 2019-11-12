@@ -17,22 +17,15 @@ comments: true
 ### Connecting to & Preparing Data
 
 - Tableau File Type
-    - [Tableau File Type](https://onlinehelp.tableau.com/current/pro/desktop/enus/environ_filesandfolders.htm)
+    - [Tableau File Type](https://onlinehelp.tableau.com/current/pro/desktop/en-us/environ_filesandfolders.htm)
 - Create and save data connections
     - [Create and save data connections](https://onlinehelp.tableau.com/current/pro/desktop/en-us/export_connection.htm)
 - Create a live connection to a data source
     - 처음 연결하면 Default는 Live Connection
 - Explain the differences between using live connections versus extracts
+    - <img src="https://drive.google.com/file/d/1Y0sbeqOndrStD__UoGFw-mBuD_b5h2Fu/view?usp=sharing?raw=1">
     - Live Connection
-        - 실시간
-        - Tableau Refresh를 하면 최신 데이터 동기화
-        - Connection 끊기면 사용 불가
-        - DB의 경우 Credential을 입력해야함
     - Extract
-        - 다운로드(Frozen the Data)
-        - Refresh Extract를 하지 않으면, 원천이 변경 되었더라도 같은 데이터를 계속 사용
-        - Connection 끊겨도(오프라인) 사용 가능
-        - Credential 입력 필요 없음
         - Tableau Public에서는 사용 불가
         - 큰 데이터의 경우 Aggregate 같은 옵션 사용 가능
     - [TDE or Live?](http://drawingwithnumbers.artisart.org/tde-or-live-when-to-use-tableau-data-extracts/)
