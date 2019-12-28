@@ -18,15 +18,15 @@ tagline:             Data Agit
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  데이터 엔지니어
+  주인장 김현욱
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              Aiden Kim
+  name:              김현욱
   email:             aiden.webglass@gmail.com
 
 # Fallback image and color
-image:               /assets/img/logo.png
+image:               /assets/img/hw.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.

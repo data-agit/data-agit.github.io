@@ -5,6 +5,25 @@ menu: true
 order: 10
 ---
 
-## 소개 
-- Github : [https://github.com/data-agit](https://github.com/data-agit)
-- Mail : aiden.webglass@gmail.com
+
+## 주인장 소개
+- KAIST 소프트웨어 대학원 석사
+- (현) LG전자 CTO연구소 빅데이터 엔지니어
+- 데이터 아지트 주인장
+- ```쟤처럼 살고 싶다```에서 ```쟤```를 맡고 있습니다!
+  - 테니스
+  - 야구
+  - 서핑
+  - 수영
+  - 포크레인 면허
+  - 디지털 노마드
+  - 어질리티(With 뿌꾸)
+  
+  - 작가
+  - 버스 면허
+  - 보트 면허
+  - 라이프 가드
+
+---
+
+## 
