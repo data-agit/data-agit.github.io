@@ -14,6 +14,7 @@ description: >
 우리가 일상에서 사용하는 ```데이터```를 이해하고, 직접 경험합니다. 
 
 ```AI```가 우리의 삶을 어떻게 바꿀 것인지 고민합니다.
+<img src="/assets/img/datagit.jpg">
 <br/>
 <br/>
 <br/>
