@@ -15,6 +15,7 @@ description: >
 
 ```AI```가 우리의 삶을 어떻게 바꿀 것인지 고민합니다.
 <br/>
+<br/>
 <img src="/assets/img/datagit.jpg">
 <br/>
 1. 모두를 위한 빅데이터
