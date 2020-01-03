@@ -3,11 +3,14 @@ layout: list
 title: 데이터베이스
 slug: database
 menu: true
-submenu: true
+submenu: false
 order: 1
 description: >
-  당신이 알아야할 필수 개념! DBMS
 ---
+
+당신이 알아야할 필수 개념! DBMS
+
+
 당신은 여성의류 쇼핑몰 ```대표```다.
 <br/><br/>
 회사가 성장하면서 매일 정리하고 확인해야 할 자료들이 많아졌고, 오늘 직원 ```D```를 고용했다.
