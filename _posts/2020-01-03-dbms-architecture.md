@@ -3,7 +3,7 @@ layout: post
 title: "DBMS 아키텍처"
 subtitle: "DBMS 아키텍처 기초"
 categories: database
-tags: dbms
+tags: database
 comments: true
 ---
 
